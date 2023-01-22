@@ -1,0 +1,90 @@
+body {
+    overflow: hidden;
+    margin: 0;
+}
+
+html {
+    background: url(image/banner1.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+main button {
+    cursor: pointer;
+    font-size: 10pt;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 30px;
+    border: solid 1px #14c1b7;
+    color: #14c1b7;
+    padding: 16px 58px;
+    transition: ease-out 0.2s;
+    font-weight: bold;
+    box-shadow: inset 3px 3px 3px #1a1a1a, inset -3px 3px -3px #323232;
+}
+
+main button:hover {
+    background: #14c1b7;
+    color: white;
+}
+
+h1 {
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    font-size: 75px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin: 40px 0;
+}
+
+h3 {
+    font-size: 23px;
+    color: white;
+    display: inline;
+    font-weight: 150;
+}
+
+main {
+    position: relative;
+    top: 200px;
+    left: 200px;
+
+}
+
+nav img {
+    width: 100%;
+    box-shadow: 3px 3px 3px #1a1a1a, -3px -3px 3px #2a2a2a;
+    border-radius: 10px;
+}
+
+ul {
+    padding: 10px;
+}
+
+nav {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 80px;
+   height: 100vh;
+   background-color: #212121;
+   box-shadow: 3px 3px 3px #1a1a1a, -3px -3px 3px #2a2a2a;
+   overflow: hidden;
+   overflow-y: auto;
+}
+
+nav button {
+    background-color: #212121;
+    border: none;
+}
+
+ul li button {
+    transition: ease-out 0.2s;
+    border: none;
+}
+
+ul li button:hover {
+    padding-bottom: 15px;
+}
